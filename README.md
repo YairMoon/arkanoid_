@@ -1,2 +1,3 @@
 # arkanoid_
-solo los proyectos de este ingeniero introvertido
+Bienvenido a la rama del juego Arkanoid, ArkaMonki
+![Logo Arkanoid](imagenes/proyecto-arkanoid.png)
