@@ -2,7 +2,7 @@
 #include<Dibujo.hpp>
 #include<Actualizable.hpp>
 
-class Arkanoid : Dibujo, public Actualizable
+class Arkanoid : public Dibujo, public Actualizable
 {
 private:
     /* data */
@@ -11,6 +11,10 @@ public:
     {
     }
     Arkanoid(int x, int y) :Dibujo(x,y,"fondo"){
+    }
+    void Actualizar()
+    {
+    
     }
 
     ~Arkanoid () {}

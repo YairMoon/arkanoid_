@@ -15,7 +15,7 @@ public:
         curs_set(FALSE);
         cbreak();
         keypad(stdscr, TRUE);
-        timeout();
+        timeout(10);
     }
     void Actualizar(list<Actualizable*> actualizables){
         for (auto &&actualizable : actualizables)
