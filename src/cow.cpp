@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
     Ventana ventana;
     Arkanoid* arkanoid1 = new Arkanoid (50,50);
     Monkey* monkey1 = new Monkey (100,21);
-    Proyectil* bala = new Proyectil(100,20)
+    Proyectil* bala = new Proyectil(100,20);
 
     list<Dibujo*> dibujos;
     dibujos.push_back(arkanoid1);
@@ -23,6 +23,9 @@ int main(int argc, char const *argv[])
     actualizables.push_back(arkanoid1);
     actualizables.push_back(monkey1);
     actualizables.push_back(bala);
+
+
+
     while (true)  //descomentar solo si vcamos a meter dibujos q se muebvan
     {
        int key = getch();
