@@ -1,0 +1,16 @@
+class Actualizable 
+class Arkanoid
+class Dibujo
+Class Disparar
+Class monkey
+Class Proyectil
+Class Ventana
+
+
+Actualizable<-- Ventana
+Actualizable<-- Dibujo
+Dibujo<-- Arkanoid
+Dibujo<--monkey
+Dibujo<-- Disparar
+Dibujo<-- Proyectil
+Monkey<-- Disparar

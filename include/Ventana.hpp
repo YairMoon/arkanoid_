@@ -31,7 +31,7 @@ public:
         {
             dibujo->Dibujar();
         }
-        //se dibuja vaca
+        //se dibuja 
 
         box(stdscr, '|', '-');
     refresh();
